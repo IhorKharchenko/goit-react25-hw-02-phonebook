@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #eff3f6;
+  padding: 15px;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 10s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: perspective(400px) rotateY(0deg);
+  }
+  to {
+    transform: perspective(400px) rotateY(360deg);
+  }
+}
